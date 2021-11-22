@@ -1,0 +1,48 @@
+.App {
+    text-align: center;
+  }
+  
+  .title {
+    /* background-color: #268085; */
+    color: white;
+    background-color:#212529 ;
+    padding: 2%;
+    margin: 4% 20%;
+    border-radius: 30px;
+    border: 2px dashed #343a40;
+  }
+  
+  .list-users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .user-card {
+    background-color: #212529;
+    color: lightblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    width: 500px;
+  }
+
+  .user-card:hover {
+    box-shadow: 5px 9px 30px black;
+  }
+  
+  
+  .user-card .name {
+    color: white;
+  }
+
+
+
+
+
+
+
+ul {
+    list-style: none;
+}
